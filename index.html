@@ -3,60 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio Raga Kalas Ramadhan</title>
+  <title>Portfolio Raga Kalas Ramadhan</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeInUp 1s ease-out forwards;
-      animation-delay: 0.5s;
-    }
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="header-content">
-      <h1 class="portofolio">PORTOFOLIO</h1>
-      <p class="subtext">Junior Multimedia Designer | Video Editing | 3D Artist</p>
-    </div>
-    <nav class="navigasi">
-      <a href="#about">About Me</a>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Raga Kalas</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- About -->
-  <section id="about">
-    <h2 class="fade-in about1">- INTRODUCE -</h2>
-    <p class="fade-in about2">
-      My name is Raga Kalas Ramadhan, commonly known as Raga. I graduated in 2025 from a Vocational High School majoring in Visual Communication Design, with three years of practical experience in graphic design and multimedia editing. I have demonstrated strong leadership as the Head of the school's Creative Team, successfully managing projects and guiding the team in producing visual content for official events and internal publications.
-    </p>
-    <h3 class="fade-in about3">- MY RESULTS -</h3>
-    <h4 class="fade-in carousel">CAROUSELL</h4>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content fade-in-up">
+      <h1>Hello, I'm <span>Raga Kalas</span></h1>
+      <p>Junior Multimedia Designer | Video Editing | 3D Artist</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container">
-      <div class="kotak-belakang1 fade-in"></div>
-      <div class="kotak-belakang fade-in"></div>
-      <div class="project-card fade-in">
-        <img src="Assets/Carousel/Carousel 1/Cara agar laptop tidak cepat rusak_Page_1.png" alt="Desain Carousel"/>
-        <img src="Assets/Carousel/Carousel 2/Alasan blender 3d menjadi pilihan_Page_1.png" alt="Desain Carousel"/>
-        <img src="Assets/Carousel/Carousel 3/Software yang sering digunakan oleh youtuber_Page_1.png" alt="Desain Carousel"/>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="fade-in-up">About Me</h2>
+    <p class="fade-in-up delay-1">
+      I’m Raga Kalas Ramadhan, a passionate designer with expertise in multimedia, video editing, and 3D art.
+      Graduated in 2025, I have hands-on experience in creative leadership and professional project management.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 class="fade-in-up">My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card fade-in-up delay-1">
+        <img src="Assets/Carousel/Carousel 1/Cara agar laptop tidak cepat rusak_Page_1.png" alt="Project 1">
+        <h3>Design Carousel</h3>
+      </div>
+      <div class="project-card fade-in-up delay-2">
+        <img src="Assets/Carousel/Carousel 2/Alasan blender 3d menjadi pilihan_Page_1.png" alt="Project 2">
+        <h3>3D Showcase</h3>
+      </div>
+      <div class="project-card fade-in-up delay-3">
+        <img src="Assets/Carousel/Carousel 3/Software yang sering digunakan oleh youtuber_Page_1.png" alt="Project 3">
+        <h3>Video Editing</h3>
       </div>
     </div>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 class="fade-in-up">Contact Me</h2>
+    <p class="fade-in-up delay-1">Interested in working together? Let’s talk!</p>
+    <a href="mailto:your.email@example.com" class="btn fade-in-up delay-2">Send Email</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Raga Kalas Ramadhan | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
