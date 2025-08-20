@@ -18,12 +18,21 @@ body {
     position: relative;
   }
   
+  @media (max-width: 768px) {
+    header {
+      height: auto;
+      padding:20px;
+      text-align: center;
+    }
+  }
+
+
 .Portofolio {
     font-family: 'Times New Roman', Times, serif;
     color: #fffafa;
     text-align: left;
     top: 0;
-    padding-left: 50px;
+    padding-left: 30px;
     font-size: 30px;
     position: relative;
 }
@@ -32,16 +41,17 @@ body {
     color: #fffafa;
     text-align: left;
     left:0px;
-    top: -40px;
-    padding-left: 50px;
+    transform: translateY(-40px);
+    padding-left: 30px;
     font-size: 15px;
     position: relative
 
 }
 .Navigasi {
     color: #fff;
-    text-align: right;
-    margin: 0 1rem;
+    text-align: center;
+    transform: translateX(600px);
+    margin-top: 10px;
   }
 
 .Navigasi a {
