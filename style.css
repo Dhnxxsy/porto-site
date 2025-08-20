@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+    max-width: 100%;
+    padding: 1px;
+    position: relative;
+  }
+  
+.Portofolio {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fffafa;
+    text-align: left;
+    top: 0;
+    padding-left: 50px;
+    font-size: 30px;
+    position: relative;
+}
+
+.Subtext {
+    color: #fffafa;
+    text-align: left;
+    left:0px;
+    top: -40px;
+    padding-left: 50px;
+    font-size: 15px;
+    position: relative
+
+}
+.Navigasi {
+    color: #fff;
+    text-align: right;
+    margin: 0 1rem;
+  }
+
+.Navigasi a {
+    display: inline-block;
+    color: #fffafa;
+    text-decoration: none;
+    right: 50px;    
+    position: relative;
+    padding: 10px;
+    transition: 0.1s ease;
+    top: -80px;
+}
+
+.Navigasi a:hover {
+    transform: scale(1.2);
+}
+  
+  section {
+    padding: 2rem 5%;
+  }
+  
+  .project-card {
+    margin-bottom: 1rem;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    color: inherit;
+    overflow: visible;
+    width: auto;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .project-card img {
+    width: 30%; 
+    height: 30%;
+    padding: 15px;
+    transition: 0.3s ease;
+    align-items: center;
+    position: relative;
+    z-index:  2;
+    border-radius: 30px;
+    left: 20px;
+    bottom: 90px;
+    transform-origin: center;
+  }
+
+  .project-card :hover {
+    transform: scale(1.02);
+    background-image: linear-gradient(135deg, #5832f0, #ffa647);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  }
+
+.About1 {
+    text-align: center;
+    position: relative;
+    padding: 1%;
+    font-family: Helvetica, sans-serif; 
+    font-weight: 1000;
+    margin: auto;
+    font-size: 25px;
+}
+
+  .About2 {
+    text-align: center;
+    position: relative;
+    padding: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    max-width: 900px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+  
+  .About3 {
+    text-align: center;
+    position: relative;
+    padding: 10%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 1000;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  .Carousel {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 2;
+
+  }
+
+.container {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.kotak-belakang {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c3c3c3;
+  border-radius: 12px;
+  margin-top: -120px;
+  outline: #000000 10px;
+
+}
+
+.kotak-belakang1 {
+  position: absolute;
+  top: 25px;  
+  left: 40%;
+  width: 20%;
+  height: 15%;
+  background-color: #000000;
+  border-radius: 12px;
+  margin-top: -200px;
+  z-index: 1; 
+}
